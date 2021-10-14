@@ -3,11 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=0">
+   
     <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <title>Fineteklabs -Go Beyond</title>
 </head>
 <body>
-    
+    <nav>
+    <div class="logo">
+        <img src="./logo1.png" alt="logo" height="50">
+        <p>Fineteklabs</p> 
+    </div>
+    </nav>
+    <!-- end of navigation bar -->
+
+    <!-- carousel section -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide s-1">Innovative digital solutions</div>
+          <div class="swiper-slide s-2">e-commerce solutions</div>
+          <div class="swiper-slide s-3">customised software solutions</div>
+          <div class="swiper-slide s-4">Financial Service Solutions</div>
+          <div class="swiper-slide s-5">Go beyond, grow beyond</div>
+          
+        </div>
+        <div class="swiper-button-next"> <span class="a-bg"><i class="arrow right"></i></span></div>
+        <div class="swiper-button-prev"><span class="a-bg"><i class="arrow left"></i></span></div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>  
+      <script src="./index.js"></script>
 </body>
 </html>
