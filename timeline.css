@@ -1,0 +1,9 @@
+.o-h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.o-h1 h1{
+    color: #009688;
+}
