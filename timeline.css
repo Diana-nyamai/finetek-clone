@@ -20,6 +20,7 @@ html{
   margin: 50px auto;
   padding: 0 20px;
   position: relative;
+  color: #fff;
 }
 .wrapper .center-line{
   position: absolute;
@@ -46,6 +47,24 @@ html{
   padding: 20px;
   position: relative;
 }
+.wrapper .row .c-1{
+    background: #42a5f5;
+}
+.wrapper .row .c-2{
+    background: #000;
+}
+.wrapper .row .c-3{
+    background: #ffa726;
+}
+.wrapper .row .c-4{
+    background: #66bb6a;
+}
+.wrapper .row .c-5{
+    background: #ef5350;
+}
+.wrapper .row .c-6{
+    background: #283593;
+}
 .wrapper .row section::before{
   position: absolute;
   content: "";
@@ -55,6 +74,24 @@ html{
   top: 80px;
   z-index: -1;
   transform: rotate(45deg);
+}
+.wrapper .row .c-1::before{
+    background: #42a5f5;
+}
+.wrapper .row .c-2::before{
+    background: #000;
+}
+.wrapper .row .c-3::before{
+    background: #ffa726;
+}
+.wrapper .row .c-4::before{
+    background: #66bb6a;
+}
+.wrapper .row .c-5::before{
+    background: #ef5350;
+}
+.wrapper .row .c-6::before{
+    background: #283593;
 }
 .row-1 section::before{
   left: -7px;
@@ -101,11 +138,11 @@ html{
   justify-content: flex-end;
 }
 .row section .details .title{
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 400;
 }
 .row section p{
-  margin: 10px 0 17px 0;
+  margin: 30px 0 17px 0;
 }
 
 .row section .bottom a{
