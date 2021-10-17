@@ -1,0 +1,24 @@
+.c-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.c-images ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.c-images ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 20px;
+}
+@media all and (max-width: 768px){
+    .c-images ul li{
+        width: 80%;
+    }
+}
