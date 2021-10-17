@@ -17,11 +17,12 @@ li{
 }
 nav{
     width: 100%;
-   position: sticky;
+   position: fixed;
    background: #fff;
    padding: 10px 20px;
    font-weight: 300 !important;
    z-index: 100;
+   box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%);
 }
 .logo{
     display: flex;
