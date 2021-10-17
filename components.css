@@ -1,0 +1,112 @@
+.w-us{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.w-us h1{
+    color: #2196f3;
+    padding: 20px;
+    font-size: 32px;
+}
+.w-us p{
+    font-size: 20px;
+    font-weight: 100 !important;
+}
+
+/* collapsable header */
+.collapsible {
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600 !important;
+    letter-spacing: .0125em;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #fff;
+  }
+  
+  .collapsible:after {
+    content: "\02C5";
+    color: #7c7c7c;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\02C4";
+  }
+  
+  .content {
+    padding: 3px 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #ffff;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%);
+  }
+.content p{
+    font-size: 16px;
+    padding: 10px 0 20px 0;
+}
+
+/* projects section */
+.c-part{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.c-part h1{
+    color: #f44336;
+    padding: 20px;
+    font-size: 32px;
+}
+.c-part p{
+    font-size: 20px;
+    font-weight: 100 !important;
+}
+
+.p-contanter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.card {
+    transition: 0.3s;
+    width: 25%;
+    margin: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+  }
+.card img{
+      border-radius: 5px 5px 0 0;
+  }
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.p-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 16px;
+}
+@media all and (max-width: 768px){
+    .card{
+        width: 100%;
+    }
+}
