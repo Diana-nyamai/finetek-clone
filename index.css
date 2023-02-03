@@ -18,7 +18,7 @@ li{
 nav{
     width: 100%;
    position: fixed;
-   background: #fff;
+   background: #000;
    padding: 10px 20px;
    font-weight: 300 !important;
    z-index: 100;
